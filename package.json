@@ -1,0 +1,26 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "Homework for showing a fake amazon-style product application with a database",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajfleck13/Bamazon-Heroku-App.git"
+  },
+  "keywords": [
+    "homework",
+    "bootcamp",
+    "heroku",
+    "bamazon"
+  ],
+  "author": "aj fleck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ajfleck13/Bamazon-Heroku-App/issues"
+  },
+  "homepage": "https://github.com/ajfleck13/Bamazon-Heroku-App#readme"
+}
