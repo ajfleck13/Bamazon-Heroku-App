@@ -11,11 +11,11 @@ const db = require("./models");
 //Use json for sending, and include the stylings 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(express.static('./app/public'));
+app.use(express.static('./public'));
 
 //Create express app route listeners for html/apis
-require("./app/routes/api-routes.js")(app);
-require('./app/routes/html-routes.js')(app);
+require("./routes/api-routes.js")(app);
+require('./routes/html-routes.js')(app);
 
 //First link to database using sequelize and sync with it
 //Tell express app to start listening for these routes on this port

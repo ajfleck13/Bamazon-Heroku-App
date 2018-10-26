@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/ajfleck13/Bamazon-Heroku-App/issues"
   },
-  "homepage": "https://github.com/ajfleck13/Bamazon-Heroku-App#readme"
+  "homepage": "https://github.com/ajfleck13/Bamazon-Heroku-App#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.41.0"
+  }
 }
